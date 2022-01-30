@@ -1,0 +1,72 @@
+@import url(/stylesheets/colors.css);
+@import url(/stylesheets/reset.css);
+@import url(/components/component-stylesheets/index.css);
+@import url(/stylesheets/typography.css);
+@import url(/stylesheets/utilites.css);
+@import url(/stylesheets/navbar.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;600;700;900&display=swap');
+
+/* landing page styles */
+body{
+    min-height: 100vh;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+.container{
+    min-height: 100vh;
+    background-color: var(--mr-dark-background-color);
+    color: var(--mr-white-text-color);
+}
+
+.lp__container{
+    width: 100%;
+    margin-top: 12rem;
+    min-height: 100vh
+}
+
+.lp__container__head{
+    font-size: 4rem;
+    font-weight: 600;
+    max-width: 500px;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.lp__container__subhead{
+    font-size: 2rem;
+    max-width: 700px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.lp__container__buttons{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    column-gap: 3rem;
+}
+
+.btn{
+    width: 10rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    border: none;
+    font-weight: 500;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: var(--mr-dark-primary);
+}
+
+.btn--primary{
+    background-color: var(--mr-primary-color);
+    color: white;
+}
+
+.btn--default{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
