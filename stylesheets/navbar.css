@@ -2,6 +2,7 @@
 
 .nav{
     display: flex;
+    width: 100%;
     column-gap: 50px;
     flex-wrap: wrap;
     padding: 2rem;
@@ -76,10 +77,6 @@
 }
 
 @media  screen and (max-width : 371px) {
-    .nav-hero{
-        font-size: 1.5rem;
-    }
-
     .nav{
         flex-wrap: nowrap;
     }
@@ -90,7 +87,7 @@
 
 }
 
-@media  screen and (max-width : 293px) {
+@media  screen and (max-width : 320px) {
     .nav-social{
         display: none;
     }
