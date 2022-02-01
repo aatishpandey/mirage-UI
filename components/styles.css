@@ -48,7 +48,7 @@ body{
     column-gap: 3rem;
 }
 
-.btn{
+.btn-nav{
     width: 10rem;
     height: 5rem;
     font-size: 1.5rem;
@@ -58,15 +58,15 @@ body{
     cursor: pointer;
 }
 
-.btn:hover{
+.btn-nav:hover{
     background-color: var(--mr-dark-primary);
 }
 
-.btn--primary{
+.btn-nav--primary{
     background-color: var(--mr-primary-color);
     color: white;
 }
 
-.btn--default{
+.btn-nav--default{
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
