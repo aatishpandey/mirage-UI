@@ -140,7 +140,7 @@
 }
 
 .btn-text-icon-secondary .btn-icon-secondary{
-    color: #828386;
+    color: var(--mr-dark-secondary);
     font-size: 1.3rem;
 }
 
