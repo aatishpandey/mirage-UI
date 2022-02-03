@@ -9,7 +9,7 @@
     margin: 1rem 0rem;
     color: var(--mr-white-text-color);
     font-weight: 500;
-    border-radius: 0.5rem
+    border-radius: 0.5rem;
 }
 
 .btn:hover{
@@ -60,16 +60,16 @@
 }
 
     /* icon buttons */
-    .btn-icon{
-        background: none;
-        border: none;
-        font-size: 1.8rem;
-        color: var(--mr-primary-color);
-    }
+.btn-icon{
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    color: var(--mr-primary-color);
+}
 
-    .btn-icon:hover{
-        color: var(--mr-dark-primary);
-    }
+.btn-icon:hover{
+    color: var(--mr-dark-primary);
+}
 
 /* text-icon */
 .btn-text-icon{
