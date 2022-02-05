@@ -17,4 +17,12 @@
     --mr-avatar-border-pink : #CE7B91;
     --mr-avatar-border-blue : #73C2BE;
     --mr-avatar-border-yellow : #FFC100;
+    --mr-primary-alert-bg-color : #9ebcf3;
+    --mr-success-alert-bg-color:#95DB9A;
+    --mr-success-alert-color:#0fa319;
+    --mr-danger-alert-bg-color : #E58E76;
+    --mr-danger-alert-color : #b13513;
+    --mr-warning-alert-bg-color : #FFD470;
+    --mr-warning-alert-color : #bf8d1a;
+
 }
