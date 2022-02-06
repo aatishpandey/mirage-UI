@@ -1,0 +1,44 @@
+.avatar{
+    border-radius: 50%;
+}
+
+/* large avatar */
+.avatar-l{
+    width: 15rem;
+    height: 15rem;
+}
+
+/* avatar medium */
+.avatar-m{
+    width: 12.5rem;
+    height: 12.5rem;
+}
+
+/* avatar small */
+.avatar-s{
+    width: 8rem;
+    height: 8rem;
+}
+
+/* avatar extra small */
+.avatar-xs{
+    width: 5rem;
+    height: 5rem;
+}
+
+/* avatar border color styles */
+.bd-black{
+    border: 5px solid var(--mr-avatar-border-raisin-black);
+}
+
+.bd-pink{
+    border: 5px solid var(--mr-avatar-border-pink);
+}
+
+.bd-red{
+    border: 5px solid var(--mr-avatar-border-blue);
+}
+
+.bd-plum{
+    border: 5px solid var(--mr-avatar-border-yellow);
+}
