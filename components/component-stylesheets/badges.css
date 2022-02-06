@@ -2,7 +2,7 @@
     font-size: 2.5rem;
 }
 
-.badge-img-container{
+.badge-icon-container{
     position: relative;
 }
 
@@ -29,10 +29,6 @@
     justify-content: center;
     font-size: 0.8rem;
     font-weight: 700;
-}
-
-.badge-icon-container{
-    position: relative;
 }
 
 .cart{
