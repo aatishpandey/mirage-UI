@@ -1,0 +1,60 @@
+.badge-icon{
+    font-size: 2.5rem;
+}
+
+.badge-icon-container{
+    position: relative;
+}
+
+.badge-img{
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+}
+
+.status{
+    border-radius: 50%;
+    background-color: var(--mr-primary-color);
+    height: 1.5rem;
+    width: 1.5rem;
+    position : absolute;
+    border: 0.3rem solid var(--mr-white-text-color);
+    padding: 0.8rem;
+}
+
+.status-digit{
+    color: var(--mr-white-text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.cart{
+    background-color: var(--mr-danger-alert-color);
+    top: -14px;
+    right : -10px;
+}
+
+.bell{
+    top: -14px;
+    right: -7px;
+}
+
+.status-default{
+    bottom: -1px;
+    right:0px;
+}
+
+.status-online{
+    background-color: var(--mr-success-alert-color);
+}
+
+.status-away{
+    background-color: var(--mr-warning-alert-color);
+}
+
+.status-offline{
+    background-color: var(--mr-secondary-color);
+}
