@@ -18,7 +18,7 @@
     height: 1.5rem;
     width: 1.5rem;
     position : absolute;
-    border: 0.3rem solid white;
+    border: 0.3rem solid var(--mr-white-text-color);
     padding: 0.8rem;
 }
 
