@@ -1,0 +1,33 @@
+.input-box{
+    width: 60rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    /* margin: 2rem 0; */
+    border: 1px solid var(--mr-primary-color);
+    padding: 0 3rem 0;
+}
+
+.input-password{
+    border:1px solid var(--mr-danger-alert-color);
+    color: var(--mr-danger-alert-color);
+}
+
+.input-label{
+    display: block;
+    margin :auto;
+    margin-top: 2rem;
+}
+
+.input-head{
+    display: block;
+    font-size: 1.5rem;
+}
+
+.input-err{
+    color: var(--mr-danger-alert-color);
+}
+
+.input-textarea{
+    width:40rem
+}
