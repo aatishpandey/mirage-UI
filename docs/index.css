@@ -1,3 +1,8 @@
+
+body{
+    overflow-y: scroll;
+}
+
 .docs-container{
     display: grid;
     grid-template-columns: 30rem auto;
@@ -59,6 +64,7 @@
 
 .docs-main-bar-subhead{
     font-size: 2.5rem;
+    margin-top: 2rem;
 }
 
 .docs-main-bar-text{
@@ -68,4 +74,18 @@
 
 .docs-iframe{
     margin:2rem 0;
+    width: 75rem;
+    height: 205px;
+    border:0;
+    transform: scale(1);
+    overflow-y:hidden;
+}
+
+.docs-component-example-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 75rem;
+    padding: 2rem 1rem;
+    margin: 3rem 0;
 }
