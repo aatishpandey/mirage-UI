@@ -42,16 +42,18 @@
 .btn-link{
     color: var(--mr-default-color);
     background-color: transparent;
-    border: none;
-    cursor: pointer;
     padding: 0;
     font-size: 1.3rem;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.btn-link:hover{
+    background-color: transparent;
 }
 
 /* link button */
 .btn-link-primary{
-    text-decoration: underline;
-    text-underline-position: under;
     text-decoration-color: var(--mr-primary-color);
 }
 
@@ -108,8 +110,8 @@
 
 /* secondary link button */
 .btn-link-secondary{
-    text-decoration: underline;
-    text-underline-position: under;
+    /* text-decoration: underline;
+    text-underline-position: under; */
     text-decoration-color: var(--mr-secondary-color);
 }
 
@@ -119,9 +121,6 @@
 
 /* icon button secondary */
 .btn-icon-secondary{
-    background: none;
-    border: none;
-    font-size: 1.8rem;
     color: var(--mr-secondary-color);
 }
 
