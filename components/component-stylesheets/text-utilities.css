@@ -1,0 +1,15 @@
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-gray{
+    color: var(--mr-default-color);
+}
