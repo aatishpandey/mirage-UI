@@ -1,7 +1,7 @@
 .nav{
     display: flex;
     width: 100%;
-    column-gap: 50px;
+    column-gap: 5rem;
     flex-wrap: wrap;
     padding: 2rem;
     align-items: center;
