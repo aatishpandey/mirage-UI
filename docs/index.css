@@ -1,8 +1,11 @@
+html,body{
+    height: 100%;
+}
 
 body{
     overflow: hidden;
     overflow-y: scroll;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 .docs-container{
@@ -13,7 +16,7 @@ body{
     height: 100%;
     color: var(--mr-text-color);
     margin: 5rem auto 0;
-    width: 80%;
+    width: 90%;
 }
 
 
@@ -29,6 +32,7 @@ body{
 .sidebar-container::-webkit-scrollbar {
     width: 0;
     height: 0;
+    position: sticky;
 }
 
 .docs-main-bar{
@@ -60,12 +64,12 @@ body{
 }
 
 .sidebar-head{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 500;
 }
 
 .sidebar-text{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 400;
 }
 
@@ -90,9 +94,12 @@ body{
 .docs-iframe{
     margin:2rem 0;
     width: 100% !important;
-    max-height: 30rem;
+    /* max-height: 30rem !important; */
+    /* display: flex;
+    align-items: center; */
     border:0;
     transform: scale(1);
+    /* overflow-y: hidden !important; */
 
 }
 
@@ -103,10 +110,15 @@ body{
     flex-wrap: wrap;
     max-width: 75rem;
     padding: 2rem 1rem;
-    margin: 3rem 0;
+    margin: 3rem auto;
 }
 
 @media screen and (max-width: 1024px) {
+
+    :root{
+        font-size: 50%;
+    }
+
     .sidebar-container{
         display: none;
     }
@@ -115,7 +127,7 @@ body{
     }
 
     .docs-container{
-        /* display: grid; */
+
         grid-template-columns: 100%;
         grid-template-areas:
          "main";
@@ -123,10 +135,12 @@ body{
 }
 
 @media screen and (max-width : 120px) {
+    :root{
+        font-size: 30%;
+    }
     .docs-container{
         width: 100%;
         margin: 0;
         padding: 0;
-        /* overflow-x: hidden; */
     }
 }
