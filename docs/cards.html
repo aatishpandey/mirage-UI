@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="/components/styles.css">
+    <link rel="stylesheet" href="/docs/index.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav nav--shadow">
+            <div class="nav-hero cursor-pointer">
+                <p class="nav__hero__main"> Mirage UI</p>
+                <p class="nav__hero__tagline">Every Code is a Mirage</p>
+            </div>
+
+            <div class="nav-header">
+                <p class="nav__header__items text__hover--primary-color cursor-pointer">Home</p>
+                <p class="nav__header_items text__hover--primary-color cursor-pointer">Documentation</p>
+            </div>
+
+            <div class="nav-social">
+                <button class="fab fa-github social-button text__hover--primary-color cursor-pointer"></button>
+                <button class="fab fa-linkedin social-button text__hover--primary-color cursor-pointer"></button>
+                <button class="fab fa-twitter social-button text__hover--primary-color cursor-pointer"></button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="docs-container docs-text-color">
+        <div class="sidebar-container">
+            <div class="sidebar-head sidebar-component">
+                Getting Started
+            </div>
+            <hr>
+            <div class="sidebar-text sidebar-component">
+                Introduction
+            </div>
+            <div class="sidebar-text sidebar-component">
+                Installation
+            </div>
+
+            <div class="sidebar-head sidebar-component">
+                Components
+            </div>
+            <hr>
+            <div class="sidebar-text sidebar-component">
+                Avatar
+            </div>
+            <div class="sidebar-text sidebar-component">
+                Alerts
+            </div>
+            <div class="sidebar-text sidebar-component">
+                Badge
+            </div>
+            <div class="sidebar-text sidebar-component">
+                Button
+            </div>
+            <div class="sidebar-text sidebar-component">
+                Card
+            </div>
+            <div class="sidebar-text sidebar-component">
+                Image
+            </div>
+            <div class="sidebar-text sidebar-component">
+                Input
+            </div>
+            <div class="sidebar-text sidebar-component">
+                Text Utilities
+            </div>
+            <div class="sidebar-text sidebar-component">
+                Navigation
+            </div>
+            <div class="sidebar-text sidebar-component">
+                Toast
+            </div>
+            <div class="sidebar-text sidebar-component">
+                Ratings
+            </div>
+        </div>
+        <div class="docs-main-bar">
+            <div class="docs-intro docs-main-bar-text">
+                <div class="docs-main-bar-head ">Cards</div>
+                Cards are usually used to show relevant information for any product. It should be appealing to user with
+                images and info related to the entity.
+            </div>
+            <hr>
+            <div class="docs-intro-install docs-main-bar-text">
+                <div class="docs-main-bar-head docs-main-bar-subhead">Vertical Cards</div>
+                Vertical Cards can have three variations like Cards with badges, Cards with dismiss and Cards with
+                shadow.
+
+                <div class="docs-component-example-container">
+                    <!-- vertical card with shadow and badges-->
+                    <div class="card">
+                        <img src="/assets/card-img.jpg" alt="">
+                        <div class="card-badge">New</div>
+
+                        <div class="card-info">
+                            <div class="main">
+                                <p class="card-header">
+                                    Skin Care Combo
+                                </p>
+                                <p class="card-author">
+                                    by The Skin Care Company
+                                </p>
+                                <p class="card-about">
+                                    Rs.8000 <s>Rs.10000</s><span style="color: var(--mr-primary-color);">(20%
+                                        OFF)</span>
+                                </p>
+                            </div>
+
+                            <div class="buttons">
+                                <button class="card-btn">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add to Cart</button>
+                                <button class="card-btn card-btn-icon far fa-heart"></button>
+                                <button class="card-btn card-btn-icon fas fa-share-alt"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card with dismiss -->
+                    <div class="card">
+                        <img src="/assets/card-img.jpg" alt="">
+                        <div class="card-badge">New</div>
+                        <div class="fas fa-window-close icon-dismiss"></div>
+                        <div class="card-info">
+                            <div class="main">
+                                <p class="card-header">
+                                    Skin Care Combo
+                                </p>
+                                <p class="card-author">
+                                    by The Skin Care Company
+                                </p>
+                                <p class="card-about">
+                                    Rs.8000 <s>Rs.10000</s><span style="color: var(--mr-primary-color);">(20%
+                                        OFF)</span>
+                                </p>
+                            </div>
+
+                            <div class="buttons">
+                                <button class="card-btn">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add to Cart</button>
+                                <button class="card-btn card-btn-icon far fa-heart"></button>
+                                <button class="card-btn card-btn-icon fas fa-share-alt"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <iframe class="docs-iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28137%2C128%2C128%2C1%29&t=zenburn&wt=none&l=auto&width=75rem&ds=true&dsyoff=21px&dsblur=73px&wc=true&wa=false&pv=56px&ph=41px&ln=false&fl=1&fm=Hack&fs=14px&lh=110%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fcard-img.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253ENew%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522main%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Skin%2520Care%2520Combo%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-author%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520by%2520The%2520Skin%2520Care%2520Company%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-about%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509Rs.8000%2520%253Cs%253ERs.10000%253C%252Fs%253E%253Cspan%2520style%253D%2522color%253Avar%28--mr-primary-%2509%2509%2509%2509color%29%253B%2522%253E%2820%2525OFF%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520Cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2520card-btn-icon%2520far%2520fa-heart%2522%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2520card-btn-icon%2520fas%2520fa-share-alt%2522%253E%2509%2509%2509%2509%2509%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                    style="width: 750px; height: 646px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <hr>
+            <div class="docs-intro-install docs-main-bar-text">
+                <div class="docs-main-bar-head docs-main-bar-subhead">Horizontal Cards</div>
+                Horizontal Cards can have variations like Horizontal Cards , Text only cards
+
+                <div class="docs-component-example-container">
+                    <div class="card card-horizontal">
+                        <div class="card-hr-details">
+                            <img src="/assets/card-img.jpg" alt="">
+                            <div class="card-badge">New</div>
+
+                            <div class="card-info">
+                                <p class="card-header">
+                                    Skin Care Combo
+                                </p>
+                                <p class="card-author">
+                                    by The Skin Care Company
+                                </p>
+                                <p class="card-about">
+                                    Rs.8000 <s>Rs.10000</s><span style="color: var(--mr-primary-color);">(20%
+                                        OFF)</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="buttons card-info-margin hr-buttons">
+                            <button class="card-btn">
+                                <i class="fas fa-shopping-cart"></i>
+                                Add to Cart</button>
+                            <button class="card-btn card-btn-icon far fa-heart"></button>
+                            <button class="card-btn card-btn-icon fas fa-share-alt"></button>
+                        </div>
+
+                    </div>
+
+                    <!-- text only -->
+                    <div class="card card-horizontal">
+                        <div class="card-hr-details">
+                            <div class="card-badge">New</div>
+
+                            <div class="card-info card-info-text">
+                                <p class="card-header">
+                                    Skin Care Combo
+                                </p>
+                                <p class="card-author">
+                                    by The Skin Care Company
+                                </p>
+                                <p class="card-about">
+                                    Rs.8000 <s>Rs.10000</s><span style="color: var(--mr-primary-color);">(20%
+                                        OFF)</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="buttons card-info-margin hr-buttons text-buttons">
+                            <button class="card-btn">
+                                <i class="fas fa-shopping-cart"></i>
+                                Add to Cart</button>
+                            <button class="card-btn card-btn-icon far fa-heart"></button>
+                            <button class="card-btn card-btn-icon fas fa-share-alt"></button>
+                        </div>
+                    </div>
+                </div>
+
+                <iframe class="docs-iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28137%2C128%2C128%2C1%29&t=zenburn&wt=none&l=auto&width=75rem&ds=true&dsyoff=21px&dsblur=73px&wc=true&wa=false&pv=56px&ph=41px&ln=false&fl=1&fm=Hack&fs=14px&lh=110%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-horizontal%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-hr-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fcard-img.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253ENew%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Skin%2520Care%2520Combo%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-author%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520by%2520The%2520Skin%2520Care%2520Company%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-about%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Rs.8000%2520%253Cs%253ERs.10000%253C%252Fs%253E%253Cspan%2520style%253D%2522color%253A%2520var%28--mr-primary-color%29%253B%2522%253E%2820%2525%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520OFF%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522buttons%2520card-info-margin%2520hr-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2520card-btn-icon%2520far%2520fa-heart%2522%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2520card-btn-icon%2520fas%2520fa-share-alt%2522%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%253C%252Fdiv%253E"
+                    style="width: 927px; height: 615px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <div class="docs-intro-install docs-main-bar-text">
+                <div class="docs-main-bar-head docs-main-bar-subhead">Cards with Text Overlay</div>
+                Horizontal Cards can have variations like Horizontal Cards , Text only cards
+
+                <div class="docs-component-example-container">
+                    <!-- with overlay -->
+                    <div class="card">
+                        <div class="card-overlay">Out Of Stock</div>
+                        <img src="/assets/card-img.jpg" alt="">
+                        <div class="card-badge">New</div>
+
+                        <div class="card-info">
+                            <div class="main">
+                                <p class="card-header">
+                                    Skin Care Combo
+                                </p>
+                                <p class="card-author">
+                                    by The Skin Care Company
+                                </p>
+                                <p class="card-about">
+                                    Rs.8000 <s>Rs.10000</s><span style="color: var(--mr-primary-color);">(20%
+                                        OFF)</span>
+                                </p>
+                            </div>
+
+                            <div class="buttons">
+                                <button class="card-btn">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add to Cart</button>
+                                <button class="card-btn card-btn-icon far fa-heart"></button>
+                                <button class="card-btn card-btn-icon fas fa-share-alt"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <iframe class="docs-iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28137%2C128%2C128%2C1%29&t=zenburn&wt=none&l=auto&width=75rem&ds=true&dsyoff=21px&dsblur=73px&wc=true&wa=false&pv=56px&ph=41px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=114%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-overlay%2522%253EOut%2520Of%2520Stock%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fassets%252Fcard-img.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253ENew%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522main%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Skin%2520Care%2520Combo%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-author%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520by%2520The%2520Skin%2520Care%2520Company%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-about%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Rs.8000%2520%253Cs%253ERs.10000%253C%252Fs%253E%253Cspan%2520style%253D%2522color%253A%2520var%28--mr-primary-color%29%253B%2522%253E%2820%2525%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520OFF%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2520card-btn-icon%2520far%2520fa-heart%2522%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2520card-btn-icon%2520fas%2520fa-share-alt%2522%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                    style="width: 927px; height: 681px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
