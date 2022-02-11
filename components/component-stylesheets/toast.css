@@ -1,0 +1,22 @@
+.toast{
+    padding: 1.7rem 1.5rem;
+    display: inline-block;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.toast-success{
+    background-color: var(--mr-success-alert-bg-color);
+    color: var(--mr-success-alert-color);
+}
+
+.toast-failure{
+    background-color: var(--mr-danger-alert-bg-color);
+    color: var(--mr-danger-alert-color);
+}
+
+.toast-general{
+    background-color: var(--mr-warning-alert-bg-color);
+    color: var(--mr-warning-alert-color);
+}
