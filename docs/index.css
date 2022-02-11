@@ -1,24 +1,29 @@
 
 body{
+    overflow: hidden;
     overflow-y: scroll;
+    min-height: 100vh;
 }
 
 .docs-container{
     display: grid;
-    grid-template-columns: 30rem auto;
+    grid-template-columns: 20% auto;
     grid-template-areas:
      "sidebar main main main main";
-     height: 100%;
-     color: var(--mr-text-color);
-     margin: 5rem 12rem 0;
+    height: 100%;
+    color: var(--mr-text-color);
+    margin: 5rem auto 0;
+    width: 80%;
 }
 
 
 .sidebar-container{
     grid-area: sidebar;
+    overflow: hidden;
     overflow-y: scroll;
     scrollbar-width: none;
     -ms-overflow-style: none;
+    max-width: 100%;
 }
 
 .sidebar-container::-webkit-scrollbar {
@@ -29,6 +34,16 @@ body{
 .docs-main-bar{
     grid-area : main;
     margin-left: 4rem;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.docs-main-bar::-webkit-scrollbar {
+    width: 0;
+    height: 0;
 }
 
 .sidebar-component{
@@ -74,18 +89,44 @@ body{
 
 .docs-iframe{
     margin:2rem 0;
-    width: 75rem;
-    height: 205px;
+    width: 100% !important;
+    max-height: 30rem;
     border:0;
     transform: scale(1);
-    overflow-y:hidden;
+
 }
 
 .docs-component-example-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     max-width: 75rem;
     padding: 2rem 1rem;
     margin: 3rem 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .sidebar-container{
+        display: none;
+    }
+    .docs-main-bar{
+        margin: auto;
+    }
+
+    .docs-container{
+        /* display: grid; */
+        grid-template-columns: 100%;
+        grid-template-areas:
+         "main";
+    }
+}
+
+@media screen and (max-width : 120px) {
+    .docs-container{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        /* overflow-x: hidden; */
+    }
 }
