@@ -36,25 +36,25 @@
 }
 
 /* para */
-.para{
+.font-md{
     font-weight: 400;
 }
 
-.p1{
+.md1{
     font-size: 1.75rem;
 }
-.p2{
+.md2{
     font-size: 1.5rem;
 }
-.p3{
+.md3{
     font-size: 1.25rem;
 }
-.p4{
+.md4{
     font-size: 1rem;
 }
-.p5{
+.md5{
     font-size: 0.75rem;
 }
-.p6{
+.md6{
     font-size: 0.5rem;
 }
