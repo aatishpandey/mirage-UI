@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="/components/styles.css">
+    <link rel="stylesheet" href="/docs/index.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav nav--shadow">
+            <div class="nav-hero cursor-pointer">
+                <p class="nav__hero__main"> Mirage UI</p>
+                <p class="nav__hero__tagline">Every Code is a Mirage</p>
+            </div>
+
+            <div class="nav-header">
+                <p class="nav__header__items text__hover--primary-color cursor-pointer">Home</p>
+                <p class="nav__header_items text__hover--primary-color cursor-pointer">Documentation</p>
+            </div>
+
+            <div class="nav-social">
+                <button class="fab fa-github social-button text__hover--primary-color cursor-pointer"></button>
+                <button class="fab fa-linkedin social-button text__hover--primary-color cursor-pointer"></button>
+                <button class="fab fa-twitter social-button text__hover--primary-color cursor-pointer"></button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="docs-container docs-text-color">
+        <div class="sidebar-container">
+            <div class="sidebar-head sidebar-component">
+                Getting Started
+            </div>
+            <hr>
+            <div class="sidebar-text sidebar-component">
+                Introduction
+            </div>
+            <div class="sidebar-text sidebar-component">
+                Installation
+            </div>
+
+            <div class="sidebar-head sidebar-component">
+                Components
+            </div>
+            <hr>
+            <div class="sidebar-text sidebar-component">
+                Avatar
+            </div>
+            <div class="sidebar-text sidebar-component">
+                Alerts
+            </div>
+            <div class="sidebar-text sidebar-component">
+                Badge
+            </div>
+            <div class="sidebar-text sidebar-component">
+                Button
+            </div>
+            <div class="sidebar-text sidebar-component">
+                Card
+            </div>
+            <div class="sidebar-text sidebar-component">
+                Image
+            </div>
+            <div class="sidebar-text sidebar-component">
+                Input
+            </div>
+            <div class="sidebar-text sidebar-component">
+                Text Utilities
+            </div>
+            <div class="sidebar-text sidebar-component">
+                Navigation
+            </div>
+            <div class="sidebar-text sidebar-component">
+                Toast
+            </div>
+            <div class="sidebar-text sidebar-component">
+                Ratings
+            </div>
+        </div>
+        <div class="docs-main-bar">
+            <div class="docs-intro docs-main-bar-text">
+                <div class="docs-main-bar-head ">Input</div>
+                Inputs are used to take user data such as usernames and passwords
+            </div>
+            <hr>
+            <div class="docs-intro-install docs-main-bar-text">
+                <div class="docs-main-bar-head docs-main-bar-subhead">Input</div>
+                Navigation can be used to create Navbars for websites.
+
+                <div class="docs-component-example-container">
+                    <label for="input-name" class="input-label">
+                        <span class="input-head">Name</span>
+                        <input type="text" placeholder="Enter Your Name" class="input-box" id="input-name">
+                    </label>
+
+
+                    <label for="input-password" class="input-label">
+                        <span class="input-head">Password</span>
+                        <input type="password" name="" id="input-password" placeholder="Enter your password"
+                            class="input-box input-password">
+
+                        <span class="input-head input-err">Please enter correct password</span>
+                    </label>
+
+                    <label for="textarea" class="input-label ">
+                        <textarea name="" id="input-textarea" cols="30" rows="10" class="input-textarea input-head"
+                            placeholder="Enter text"></textarea>
+                    </label>
+
+                </div>
+
+                <iframe class="docs-iframe"
+                    src="https://carbon.now.sh/embed?bg=rgba%28137%2C128%2C128%2C1%29&t=zenburn&wt=none&l=auto&width=75rem&ds=true&dsyoff=21px&dsblur=73px&wc=true&wa=false&pv=56px&ph=41px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=114%25&si=false&es=2x&wm=false&code=%253Clabel%2520for%253D%2522input-name%2522%2520class%253D%2522input-label%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522input-head%2522%253EName%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520Your%2520Name%2522%2520class%253D%2522input-box%2522%2520id%253D%2522input-name%2522%253E%250A%253C%252Flabel%253E%250A%250A%250A%253Clabel%2520for%253D%2522input-password%2522%2520class%253D%2522input-label%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522input-head%2522%253EPassword%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520name%253D%2522%2522%2520id%253D%2522input-password%2522%2520placeholder%253D%2522Enter%2520your%2520password%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522input-box%2520input-password%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522input-head%2520input-err%2522%253EPlease%2520enter%2520correct%2520password%253C%252Fspan%253E%250A%253C%252Flabel%253E%250A%250A%253Clabel%2520for%253D%2522textarea%2522%2520class%253D%2522input-label%2520%2522%253E%250A%2520%2520%2520%253Ctextarea%2520name%253D%2522%2522%2520id%253D%2522input-textarea%2522%2520cols%253D%252230%2522%2520rows%253D%252210%2522%2520class%253D%2522input-textarea%2520input-head%2522%250A%2520%2520%2520%2520placeholder%253D%2522Enter%2520text%2522%253E%253C%252Ftextarea%253E%250A%253C%252Flabel%253E%250A%2520%2520%250A%2520%2520"
+                    style="width: 927px; height: 483px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

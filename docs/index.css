@@ -98,7 +98,6 @@ body{
     border:0;
     transform: scale(1);
     overflow-x: scroll !important;
-    text-align: center !important;
 }
 
 .docs-component-example-container{
