@@ -113,7 +113,6 @@ body{
     padding: 2rem 1rem;
     margin: 3rem auto;
     text-align: center;
-    row-gap: 4rem;
 }
 
 @media screen and (max-width: 1024px) {
