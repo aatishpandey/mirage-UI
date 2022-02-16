@@ -1,0 +1,152 @@
+html,body{
+    height: 100%;
+}
+
+body{
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.docs-container{
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-template-areas:
+     "sidebar main main main main";
+    height: 100%;
+    color: var(--mr-text-color);
+    margin: 5rem auto 0;
+    width: 90%;
+}
+
+
+.sidebar-container{
+    grid-area: sidebar;
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    max-width: 100%;
+}
+
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.sidebar-container::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    position: sticky;
+}
+
+.docs-main-bar{
+    grid-area : main;
+    margin-left: 4rem;
+    width: 85%;
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.docs-main-bar::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.sidebar-component{
+    width: 100%;
+    padding: 1.2rem 2rem;
+    text-align: left;
+    cursor: pointer ;
+}
+
+.sidebar-component:hover{
+    background-color: var(--mr-light-secondary);
+    border-radius: 0.5rem;
+    font-weight: 700;
+}
+
+.sidebar-head{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.sidebar-text{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+
+/* main-bar styles */
+.docs-main-bar-head{
+    font-weight:700;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.docs-main-bar-subhead{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+
+.docs-main-bar-text{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.docs-iframe{
+    margin:2rem 0;
+    width: 100% !important;
+    max-height: 30rem !important;
+    border:0;
+    transform: scale(1);
+    overflow-x: scroll !important;
+}
+
+.docs-component-example-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 75rem;
+    padding: 2rem 1rem;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+
+    :root{
+        font-size: 50%;
+    }
+
+    .sidebar-container{
+        display: none;
+    }
+    .docs-main-bar{
+        margin: auto;
+    }
+
+    .docs-container{
+
+        grid-template-columns: 100%;
+        grid-template-areas:
+         "main";
+    }
+}
+
+.btn-floating-action{
+    position: relative;
+}
+
+@media screen and (max-width : 120px) {
+    :root{
+        font-size: 30%;
+    }
+    .docs-container{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
