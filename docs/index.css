@@ -1,10 +1,42 @@
 html,body{
     height: 100%;
+    display: initial;
 }
 
 body{
     overflow: hidden;
     overflow-y: scroll;
+    /* position: relative; */
+}
+
+.hamburger{
+    font-size: 3rem;
+    color: var(--mr-white-text-color);
+    display: none;
+}
+
+.ham-links{
+    display: none;
+    font-size: 1.7rem;
+    font-weight: 600;
+    max-height: 25rem;
+    overflow-y: scroll;
+    padding: 1rem 4rem;
+    background-color: var(--mr-dark-background-color);
+    color: var(--mr-white-text-color);
+}
+
+.ham-links > a{
+    display: block ;
+}
+
+.ham-links .sidebar-component:active{
+    background-color: var(--mr-light-background-color);
+}
+
+.ham-head{
+    font-size: 2.2rem;
+    font-weight: 700;
 }
 
 .docs-container{
@@ -113,6 +145,7 @@ body{
     padding: 2rem 1rem;
     margin: 3rem auto;
     text-align: center;
+    row-gap: 4rem;
 }
 
 @media screen and (max-width: 1024px) {
@@ -133,14 +166,21 @@ body{
         grid-template-columns: 100%;
         grid-template-areas:
          "main";
+         margin-top: 1rem;
+         font-size: 30%;
+    }
+
+    .hamburger{
+        display: block;
     }
 }
+
 
 .btn-floating-action{
     position: relative;
 }
 
-@media screen and (max-width : 120px) {
+@media screen and (max-width : 153px) {
     :root{
         font-size: 30%;
     }
@@ -148,5 +188,11 @@ body{
         width: 100%;
         margin: 0;
         padding: 0;
+    }
+}
+
+@media screen and (max-width : 95px) {
+    :root{
+        font-size: 10%;
     }
 }
