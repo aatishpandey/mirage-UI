@@ -1,0 +1,20 @@
+.grid-container {
+    width: 80rem;
+    display: grid;
+    column-gap: 1rem;
+}
+
+.two-column {
+    grid-template-columns: 1fr 1fr;
+}
+
+.three-column {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-item {
+    font-size: 2rem;
+    background-color: var(--mr-light-secondary);
+    text-align: center;
+    padding: 2rem;
+}
