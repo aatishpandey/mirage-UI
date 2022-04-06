@@ -1,0 +1,21 @@
+.list-item{
+    font-size: 1.8rem;
+}
+
+.inline-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.stacked-li {
+    border: 1px solid var(--mr-success-alert-color);
+    height: fit-content;
+    padding: 1rem;
+    background-color: var(--mr-success-alert-bg-color);
+}
+
+.stacked-list{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
