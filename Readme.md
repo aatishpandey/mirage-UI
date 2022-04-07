@@ -7,7 +7,7 @@ Just include the stylesheet and you are ready for a UI ride.
 
 
 
-### https://mirageui.netlify.app/
+### https://mirage-ui-temp.netlify.app/
 
 
 ## Technologies Used -
@@ -31,3 +31,7 @@ Just include the stylesheet and you are ready for a UI ride.
  - Text Utilities
  - Navigation
  - Toast
+ - Ratings
+ - Modal
+ - Lists
+ - Grid
