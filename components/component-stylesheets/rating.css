@@ -1,0 +1,14 @@
+.star-icon {
+    font-size: 2rem;
+    color: var(--mr-warning-alert-bg-color);
+}
+
+.num-rating {
+    font-size: 1.5rem;
+}
+
+.rating-container {
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 1rem;
+}
